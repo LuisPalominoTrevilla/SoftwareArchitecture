@@ -5,8 +5,6 @@ import java.awt.Graphics;
 
 public class Circle extends Figure{
 
-    private Paintable paintable;
-
     private int x = 0;
     private int y = 0;
     private int width = 50;
@@ -43,7 +41,4 @@ public class Circle extends Figure{
         return height;
     }
 
-    public void paint(Graphics g) {
-        this.paintable.paint(g);
-    }
 }

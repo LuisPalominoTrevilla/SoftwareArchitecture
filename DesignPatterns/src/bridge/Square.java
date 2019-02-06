@@ -4,8 +4,6 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Square extends Figure{
-
-    private Paintable paintable;
     private int x = 0;
     private int y = 0;
     private int width = 50;
@@ -42,7 +40,4 @@ public class Square extends Figure{
         return height;
     }
 
-    public void paint(Graphics g){
-    	this.paintable.paint(g);
-    }
 }
